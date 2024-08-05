@@ -1,0 +1,52 @@
+body
+{
+   font-family: 'segoe ui light';
+}
+
+
+.item
+{
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.item-caption
+{
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+    left: 10%;
+    padding: 10px;
+   background-color: #ffff;
+}
+#lightbox-continer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+#lightbox-item
+{
+    background-image: url(images/Paper-Pouch-Packaging-MockUp-600x600.jpg);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 75vh;
+    position: relative;
+}
+#close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#close , #prev , #next
+{
+    font-size: 25px;
+    cursor: pointer;
+}
+
